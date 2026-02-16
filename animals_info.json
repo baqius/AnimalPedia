@@ -1,0 +1,542 @@
+[
+  {
+    "common_name": "antelope",
+    "scientific_name": "Antilope cervicapra",
+    "found_in": "Africa and parts of Asia, especially open grasslands and savannas",
+    "fun_fact": "Antelopes can run up to 95 km/h, making them one of the fastest land animals on Earth!"
+  },
+  {
+    "common_name": "badger",
+    "scientific_name": "Meles meles",
+    "found_in": "Europe and Asia, in woodlands, grasslands, and hedgerows",
+    "fun_fact": "Badgers are excellent diggers and can excavate a burrow system called a 'sett' that may be used by generations of families."
+  },
+  {
+    "common_name": "bat",
+    "scientific_name": "Chiroptera (order)",
+    "found_in": "Found on every continent except Antarctica, in caves, forests, and urban areas",
+    "fun_fact": "Bats are the only mammals capable of true sustained flight, and they use echolocation to navigate in complete darkness."
+  },
+  {
+    "common_name": "bear",
+    "scientific_name": "Ursus arctos",
+    "found_in": "North America, Europe, and Asia, in forests, mountains, and tundra",
+    "fun_fact": "Bears don't truly hibernate — they enter a lighter sleep called torpor, and mother bears can give birth during this state!"
+  },
+  {
+    "common_name": "bee",
+    "scientific_name": "Apis mellifera",
+    "found_in": "Found worldwide except Antarctica, in meadows, gardens, and forests",
+    "fun_fact": "A single honeybee will produce only about 1/12 of a teaspoon of honey in its entire lifetime."
+  },
+  {
+    "common_name": "beetle",
+    "scientific_name": "Coleoptera (order)",
+    "found_in": "Found on every continent except Antarctica, in soil, forests, ponds, and deserts",
+    "fun_fact": "About 1 in every 4 known animal species on Earth is a beetle — they are the most diverse group of animals!"
+  },
+  {
+    "common_name": "bison",
+    "scientific_name": "Bison bison",
+    "found_in": "North America, primarily in grasslands and prairies",
+    "fun_fact": "Despite their massive size, bison can sprint up to 55 km/h and jump nearly 2 meters vertically."
+  },
+  {
+    "common_name": "boar",
+    "scientific_name": "Sus scrofa",
+    "found_in": "Europe, Asia, and North Africa, in forests and scrublands",
+    "fun_fact": "Wild boars have a remarkable sense of smell and can detect food buried up to a meter underground."
+  },
+  {
+    "common_name": "butterfly",
+    "scientific_name": "Lepidoptera (order)",
+    "found_in": "Found worldwide except Antarctica, in gardens, meadows, and tropical forests",
+    "fun_fact": "Butterflies taste with their feet — they have taste sensors on their legs to identify plants when they land."
+  },
+  {
+    "common_name": "cat",
+    "scientific_name": "Felis catus",
+    "found_in": "Found worldwide as a domesticated animal, adapted to nearly every environment",
+    "fun_fact": "Cats spend about 70% of their lives sleeping — that's around 13 to 16 hours a day!"
+  },
+  {
+    "common_name": "caterpillar",
+    "scientific_name": "Lepidoptera larvae",
+    "found_in": "Found worldwide on every continent except Antarctica, on plants and trees",
+    "fun_fact": "A caterpillar essentially dissolves itself into a liquid 'soup' inside its chrysalis before reforming into a butterfly."
+  },
+  {
+    "common_name": "chimpanzee",
+    "scientific_name": "Pan troglodytes",
+    "found_in": "Central and West Africa, in tropical rainforests and savannas",
+    "fun_fact": "Chimpanzees share approximately 98.7% of their DNA with humans, making them our closest living relatives."
+  },
+  {
+    "common_name": "cockroach",
+    "scientific_name": "Blattodea (order)",
+    "found_in": "Found worldwide, especially in warm tropical and subtropical regions",
+    "fun_fact": "Cockroaches can hold their breath for up to 40 minutes and survive being submerged in water for half an hour."
+  },
+  {
+    "common_name": "cow",
+    "scientific_name": "Bos taurus",
+    "found_in": "Found worldwide as a domesticated animal",
+    "fun_fact": "Cows have best friends and become stressed when separated from them — they form deep social bonds!"
+  },
+  {
+    "common_name": "coyote",
+    "scientific_name": "Canis latrans",
+    "found_in": "North and Central America, in deserts, forests, grasslands, and cities",
+    "fun_fact": "Coyotes are highly adaptable and have actually expanded their range as humans have spread — they now thrive in major cities."
+  },
+  {
+    "common_name": "crab",
+    "scientific_name": "Brachyura (infraorder)",
+    "found_in": "Found worldwide in oceans, freshwater, and on land in tropical regions",
+    "fun_fact": "Crabs communicate with each other by drumming or waving their claws in specific patterns."
+  },
+  {
+    "common_name": "crow",
+    "scientific_name": "Corvus brachyrhynchos",
+    "found_in": "North America, Europe, and Asia, in forests, fields, and urban areas",
+    "fun_fact": "Crows can recognize and remember human faces, and have been known to hold grudges against people who have wronged them."
+  },
+  {
+    "common_name": "deer",
+    "scientific_name": "Cervidae (family)",
+    "found_in": "Found worldwide except Australia and Antarctica, in forests and grasslands",
+    "fun_fact": "Male deer grow and shed their antlers every single year — they are the fastest-growing tissue in the animal kingdom."
+  },
+  {
+    "common_name": "dog",
+    "scientific_name": "Canis lupus familiaris",
+    "found_in": "Found worldwide as a domesticated animal",
+    "fun_fact": "Dogs can smell 10,000 to 100,000 times better than humans — they can even detect diseases like cancer."
+  },
+  {
+    "common_name": "dolphin",
+    "scientific_name": "Delphinidae (family)",
+    "found_in": "Found worldwide in oceans and some rivers",
+    "fun_fact": "Dolphins sleep with one half of their brain at a time, keeping one eye open to watch for predators."
+  },
+  {
+    "common_name": "donkey",
+    "scientific_name": "Equus asinus",
+    "found_in": "Found worldwide as a domesticated animal; wild relatives in Africa and Asia",
+    "fun_fact": "Donkeys have an incredible memory and can remember a place or person they met up to 25 years ago."
+  },
+  {
+    "common_name": "dragonfly",
+    "scientific_name": "Odonata (order)",
+    "found_in": "Found worldwide near freshwater habitats like ponds, rivers, and wetlands",
+    "fun_fact": "Dragonflies are the most successful hunters in the animal kingdom, catching their prey about 95% of the time."
+  },
+  {
+    "common_name": "duck",
+    "scientific_name": "Anas platyrhynchos",
+    "found_in": "Found worldwide on every continent except Antarctica, near lakes, rivers, and ponds",
+    "fun_fact": "Ducks' feathers are so waterproof that the skin underneath stays completely dry even when they dive."
+  },
+  {
+    "common_name": "eagle",
+    "scientific_name": "Aquila chrysaetos",
+    "found_in": "Found worldwide except Antarctica, in mountains, forests, and open landscapes",
+    "fun_fact": "Eagles have eyesight 4–8 times more powerful than humans and can spot a rabbit from nearly 3 km away."
+  },
+  {
+    "common_name": "elephant",
+    "scientific_name": "Loxodonta africana",
+    "found_in": "Sub-Saharan Africa and South/Southeast Asia, in savannas, forests, and grasslands",
+    "fun_fact": "Elephants are the only animals known to perform rituals around death — they mourn their deceased and return to visit bones."
+  },
+  {
+    "common_name": "flamingo",
+    "scientific_name": "Phoenicopterus roseus",
+    "found_in": "Africa, Southern Europe, and the Americas, near saltwater lagoons and lakes",
+    "fun_fact": "Flamingos are actually born white or grey — their iconic pink color comes from pigments in the algae and shrimp they eat."
+  },
+  {
+    "common_name": "fly",
+    "scientific_name": "Musca domestica",
+    "found_in": "Found worldwide in virtually every habitat",
+    "fun_fact": "Flies can taste with their feet — their taste sensors are 10 million times more sensitive to sugar than human tongues."
+  },
+  {
+    "common_name": "fox",
+    "scientific_name": "Vulpes vulpes",
+    "found_in": "Found worldwide in forests, grasslands, mountains, and urban areas",
+    "fun_fact": "Foxes use the Earth's magnetic field to judge distance and direction when pouncing on prey hidden under snow."
+  },
+  {
+    "common_name": "goat",
+    "scientific_name": "Capra hircus",
+    "found_in": "Found worldwide as a domesticated animal; wild relatives in mountainous regions of Asia and Europe",
+    "fun_fact": "Goats have rectangular pupils that give them a 320-degree field of vision, helping them spot predators from almost all directions."
+  },
+  {
+    "common_name": "goldfish",
+    "scientific_name": "Carassius auratus",
+    "found_in": "Originally from East Asia; now found worldwide in ponds and aquariums",
+    "fun_fact": "Goldfish actually have a memory span of several months — the idea that they only remember 3 seconds is a complete myth!"
+  },
+  {
+    "common_name": "goose",
+    "scientific_name": "Anser anser",
+    "found_in": "Found worldwide near lakes, rivers, and wetlands",
+    "fun_fact": "Geese fly in a V-formation to save energy — each bird benefits from the updraft of the one in front, reducing effort by up to 65%."
+  },
+  {
+    "common_name": "gorilla",
+    "scientific_name": "Gorilla gorilla",
+    "found_in": "Central and West Africa, in tropical and subtropical forests",
+    "fun_fact": "Gorillas have unique noseprints just like human fingerprints — researchers use them to identify individual gorillas in the wild."
+  },
+  {
+    "common_name": "grasshopper",
+    "scientific_name": "Caelifera (suborder)",
+    "found_in": "Found worldwide except polar regions, in grasslands, meadows, and forests",
+    "fun_fact": "Grasshoppers can jump 20 times their own body length — equivalent to a human jumping about 40 meters!"
+  },
+  {
+    "common_name": "hamster",
+    "scientific_name": "Mesocricetus auratus",
+    "found_in": "Originally from Syria and Turkey; found worldwide as a popular pet",
+    "fun_fact": "Hamsters can stuff their stretchy cheek pouches with food so much that their cheeks can become as wide as their whole body."
+  },
+  {
+    "common_name": "hare",
+    "scientific_name": "Lepus europaeus",
+    "found_in": "Europe, Asia, North America, and Africa, in open grasslands and fields",
+    "fun_fact": "Unlike rabbits, hares are born fully furred with open eyes and can run within hours of birth."
+  },
+  {
+    "common_name": "hedgehog",
+    "scientific_name": "Erinaceus europaeus",
+    "found_in": "Europe, Asia, and Africa, in hedgerows, woodlands, and gardens",
+    "fun_fact": "A hedgehog's spines are hollow hairs made of keratin — a single hedgehog can have up to 7,000 spines!"
+  },
+  {
+    "common_name": "hippopotamus",
+    "scientific_name": "Hippopotamus amphibius",
+    "found_in": "Sub-Saharan Africa, in rivers, lakes, and wetlands",
+    "fun_fact": "Hippos produce a natural sunscreen — a reddish oily fluid that also acts as an antimicrobial agent."
+  },
+  {
+    "common_name": "hornbill",
+    "scientific_name": "Bucerotidae (family)",
+    "found_in": "Africa and Asia, in tropical and subtropical forests",
+    "fun_fact": "When a female hornbill nests, the male seals her inside a tree cavity with mud, leaving only a small slit to pass food through."
+  },
+  {
+    "common_name": "horse",
+    "scientific_name": "Equus caballus",
+    "found_in": "Found worldwide as a domesticated animal; wild horses in Central Asia and Americas",
+    "fun_fact": "Horses can sleep both standing up and lying down — they have a special locking mechanism in their legs to rest without falling."
+  },
+  {
+    "common_name": "hummingbird",
+    "scientific_name": "Trochilidae (family)",
+    "found_in": "The Americas, from Alaska to Tierra del Fuego, in gardens and forests",
+    "fun_fact": "Hummingbirds are the only birds that can fly backwards — their wings beat 50–80 times per second!"
+  },
+  {
+    "common_name": "hyena",
+    "scientific_name": "Crocuta crocuta",
+    "found_in": "Africa and parts of Asia, in savannas, grasslands, and woodlands",
+    "fun_fact": "Spotted hyenas have a more powerful bite relative to their size than lions, and their laugh-like call is actually a sign of nervousness."
+  },
+  {
+    "common_name": "jellyfish",
+    "scientific_name": "Medusozoa (subphylum)",
+    "found_in": "Found worldwide in all oceans, from shallow coasts to deep seas",
+    "fun_fact": "Jellyfish have no brain, heart, or blood — they are 95% water and have existed for over 500 million years!"
+  },
+  {
+    "common_name": "kangaroo",
+    "scientific_name": "Macropus rufus",
+    "found_in": "Australia, in grasslands, savannas, and open woodlands",
+    "fun_fact": "A group of kangaroos is called a mob, and joeys (babies) live in their mother's pouch for about 8 months after birth."
+  },
+  {
+    "common_name": "koala",
+    "scientific_name": "Phascolarctos cinereus",
+    "found_in": "Eastern Australia, in eucalyptus forests and woodlands",
+    "fun_fact": "Koalas sleep up to 22 hours a day to conserve energy, since their diet of eucalyptus leaves is very low in nutrition."
+  },
+  {
+    "common_name": "ladybug",
+    "scientific_name": "Coccinellidae (family)",
+    "found_in": "Found worldwide except polar regions, in gardens, meadows, and forests",
+    "fun_fact": "Ladybugs can play dead to avoid predators, and a single ladybug can eat up to 5,000 aphids in its lifetime!"
+  },
+  {
+    "common_name": "leopard",
+    "scientific_name": "Panthera pardus",
+    "found_in": "Africa and Asia, in forests, mountains, grasslands, and deserts",
+    "fun_fact": "Leopards are incredibly strong and can haul prey heavier than themselves up into trees to keep it safe from scavengers."
+  },
+  {
+    "common_name": "lion",
+    "scientific_name": "Panthera leo",
+    "found_in": "Sub-Saharan Africa and a small population in India's Gir Forest",
+    "fun_fact": "A lion's roar can be heard from up to 8 km away and is used to communicate territory and call to the pride."
+  },
+  {
+    "common_name": "lizard",
+    "scientific_name": "Lacertilia (suborder)",
+    "found_in": "Found worldwide except Antarctica, in deserts, forests, and grasslands",
+    "fun_fact": "Some lizards can detach their own tail to escape predators — the tail wriggles to distract the predator while the lizard escapes."
+  },
+  {
+    "common_name": "lobster",
+    "scientific_name": "Homarus americanus",
+    "found_in": "North Atlantic Ocean, on rocky and sandy sea floors",
+    "fun_fact": "Lobsters don't age in the traditional sense — older lobsters are actually more fertile, and some may live over 100 years."
+  },
+  {
+    "common_name": "mosquito",
+    "scientific_name": "Culicidae (family)",
+    "found_in": "Found worldwide except Antarctica, near standing water and warm humid areas",
+    "fun_fact": "Only female mosquitoes bite — they need blood to develop their eggs. Males feed exclusively on nectar and plant juices."
+  },
+  {
+    "common_name": "moth",
+    "scientific_name": "Lepidoptera (order, non-butterfly)",
+    "found_in": "Found worldwide on every continent except Antarctica",
+    "fun_fact": "Moths navigate using moonlight as a compass, which is why they get confused and circle artificial lights at night."
+  },
+  {
+    "common_name": "mouse",
+    "scientific_name": "Mus musculus",
+    "found_in": "Found worldwide in almost every habitat, especially near human settlements",
+    "fun_fact": "Mice communicate using ultrasonic calls far beyond human hearing range — they even sing elaborate songs to attract mates."
+  },
+  {
+    "common_name": "octopus",
+    "scientific_name": "Octopoda (order)",
+    "found_in": "Found worldwide in all oceans, from shallow tidal pools to deep seas",
+    "fun_fact": "Octopuses have three hearts and blue blood — and each of their eight arms has its own mini 'brain' that can act independently!"
+  },
+  {
+    "common_name": "okapi",
+    "scientific_name": "Okapia johnstoni",
+    "found_in": "Democratic Republic of Congo, in dense tropical rainforests",
+    "fun_fact": "Despite its zebra-like stripes, the okapi's closest living relative is the giraffe — it was unknown to science until 1901."
+  },
+  {
+    "common_name": "orangutan",
+    "scientific_name": "Pongo pygmaeus",
+    "found_in": "Borneo and Sumatra, in tropical rainforests",
+    "fun_fact": "Orangutans build new sleeping nests in trees every single night, and sometimes add pillows and roofs made of leaves."
+  },
+  {
+    "common_name": "otter",
+    "scientific_name": "Lutrinae (subfamily)",
+    "found_in": "Found worldwide near rivers, lakes, and coastlines",
+    "fun_fact": "Sea otters hold hands while sleeping to keep from drifting apart — these groups are called 'rafts'!"
+  },
+  {
+    "common_name": "owl",
+    "scientific_name": "Strigiformes (order)",
+    "found_in": "Found worldwide on every continent except Antarctica",
+    "fun_fact": "Owls cannot move their eyeballs — they compensate by rotating their heads up to 270 degrees."
+  },
+  {
+    "common_name": "ox",
+    "scientific_name": "Bos taurus (castrated)",
+    "found_in": "Found worldwide as a working domesticated animal",
+    "fun_fact": "Oxen are not a separate species but specially trained adult cattle — they have been used as working animals for over 6,000 years."
+  },
+  {
+    "common_name": "oyster",
+    "scientific_name": "Ostreidae (family)",
+    "found_in": "Found worldwide in shallow marine and brackish waters",
+    "fun_fact": "Oysters can change their biological sex multiple times throughout their lives depending on environmental conditions."
+  },
+  {
+    "common_name": "panda",
+    "scientific_name": "Ailuropoda melanoleuca",
+    "found_in": "Central and Southwest China, in mountain forests with dense bamboo",
+    "fun_fact": "Giant pandas eat bamboo for up to 16 hours a day and must consume 12–38 kg of it daily just to survive."
+  },
+  {
+    "common_name": "parrot",
+    "scientific_name": "Psittaciformes (order)",
+    "found_in": "Tropical and subtropical regions of Africa, Asia, and the Americas",
+    "fun_fact": "Parrots don't just mimic sounds — some species genuinely understand words and can use them in context."
+  },
+  {
+    "common_name": "pelecaniformes",
+    "scientific_name": "Pelecaniformes (order)",
+    "found_in": "Found worldwide near coastal areas, lakes, and rivers",
+    "fun_fact": "Pelicans can hold up to 13 liters of water in their expandable throat pouches — about 3 times more than their stomach!"
+  },
+  {
+    "common_name": "penguin",
+    "scientific_name": "Spheniscidae (family)",
+    "found_in": "Southern Hemisphere, primarily Antarctica, South America, South Africa, and New Zealand",
+    "fun_fact": "Penguins propose to their mates by giving them a pebble — in penguin society, pebbles are a prized currency for nest building."
+  },
+  {
+    "common_name": "pig",
+    "scientific_name": "Sus scrofa domesticus",
+    "found_in": "Found worldwide as a domesticated animal",
+    "fun_fact": "Pigs are smarter than dogs and can learn to play video games with joysticks to earn food rewards."
+  },
+  {
+    "common_name": "pigeon",
+    "scientific_name": "Columba livia",
+    "found_in": "Found worldwide in cities, towns, and open countryside",
+    "fun_fact": "Pigeons can recognize themselves in a mirror — one of only a handful of animals to pass the self-recognition test."
+  },
+  {
+    "common_name": "porcupine",
+    "scientific_name": "Hystricidae (family)",
+    "found_in": "Africa, Asia, Europe, and the Americas, in forests and rocky hillsides",
+    "fun_fact": "Porcupine quills are coated with natural antibiotics that help prevent infection if they accidentally quill themselves."
+  },
+  {
+    "common_name": "possum",
+    "scientific_name": "Didelphis virginiana",
+    "found_in": "North and Central America, in forests, farmland, and suburban areas",
+    "fun_fact": "'Playing possum' is an involuntary response — opossums actually faint from shock and cannot consciously choose to fake death."
+  },
+  {
+    "common_name": "raccoon",
+    "scientific_name": "Procyon lotor",
+    "found_in": "North and Central America, in forests, marshes, and urban areas",
+    "fun_fact": "Raccoons' front paws become even more sensitive when wet, which is why they often appear to 'wash' their food."
+  },
+  {
+    "common_name": "rat",
+    "scientific_name": "Rattus norvegicus",
+    "found_in": "Found worldwide near human settlements",
+    "fun_fact": "Rats laugh when they are tickled — they emit ultrasonic chirps of joy that humans cannot hear without special equipment."
+  },
+  {
+    "common_name": "reindeer",
+    "scientific_name": "Rangifer tarandus",
+    "found_in": "Arctic and Subarctic regions of Europe, Asia, and North America",
+    "fun_fact": "Reindeer are the only deer species where both males and females grow antlers, and their eyes change color with the seasons."
+  },
+  {
+    "common_name": "rhinoceros",
+    "scientific_name": "Rhinocerotidae (family)",
+    "found_in": "Africa and Asia, in grasslands, savannas, and tropical forests",
+    "fun_fact": "A rhino's horn is made entirely of keratin — the same protein found in human fingernails and hair."
+  },
+  {
+    "common_name": "sandpiper",
+    "scientific_name": "Scolopacidae (family)",
+    "found_in": "Found worldwide near beaches, mudflats, and wetlands",
+    "fun_fact": "Some sandpipers migrate over 30,000 km round-trip every year — among the longest migrations of any bird."
+  },
+  {
+    "common_name": "seahorse",
+    "scientific_name": "Hippocampus (genus)",
+    "found_in": "Tropical and temperate waters worldwide, in shallow seagrass beds and coral reefs",
+    "fun_fact": "Seahorses are the only animal species where the male becomes pregnant and gives birth to the young."
+  },
+  {
+    "common_name": "seal",
+    "scientific_name": "Phocidae (family)",
+    "found_in": "Found worldwide in oceans, especially in colder Arctic and Antarctic waters",
+    "fun_fact": "Seals can slow their heart rate to as low as 4 beats per minute while diving to conserve oxygen."
+  },
+  {
+    "common_name": "shark",
+    "scientific_name": "Selachimorpha (superorder)",
+    "found_in": "Found worldwide in all oceans, from shallow coasts to deep open water",
+    "fun_fact": "Sharks are older than trees — they have been swimming in Earth's oceans for over 450 million years."
+  },
+  {
+    "common_name": "sheep",
+    "scientific_name": "Ovis aries",
+    "found_in": "Found worldwide as a domesticated animal; wild relatives in mountains of Central Asia",
+    "fun_fact": "Sheep can recognize and remember up to 50 different sheep faces for over 2 years — and remember human faces too."
+  },
+  {
+    "common_name": "snake",
+    "scientific_name": "Serpentes (suborder)",
+    "found_in": "Found worldwide except Antarctica, Ireland, New Zealand, and some islands",
+    "fun_fact": "Snakes smell the air using their forked tongue, which collects scent particles and delivers them to a special organ in their mouth."
+  },
+  {
+    "common_name": "sparrow",
+    "scientific_name": "Passer domesticus",
+    "found_in": "Found worldwide near human settlements on every continent except Antarctica",
+    "fun_fact": "House sparrows were introduced to North America in 1851 with just 16 birds — today there are hundreds of millions there."
+  },
+  {
+    "common_name": "squid",
+    "scientific_name": "Teuthida (order)",
+    "found_in": "Found worldwide in all oceans, from shallow coastal waters to the deep sea",
+    "fun_fact": "The giant squid has the largest eyes of any living creature — each eye can be as large as a basketball."
+  },
+  {
+    "common_name": "squirrel",
+    "scientific_name": "Sciurus carolinensis",
+    "found_in": "Found worldwide in forests, parks, and urban areas",
+    "fun_fact": "Squirrels accidentally plant millions of trees every year by forgetting where they buried their nuts."
+  },
+  {
+    "common_name": "starfish",
+    "scientific_name": "Asteroidea (class)",
+    "found_in": "Found worldwide in all oceans, from tidal pools to deep sea floors",
+    "fun_fact": "Starfish have no brain or blood — they use seawater to pump nutrients through their body, and can regenerate lost arms!"
+  },
+  {
+    "common_name": "swan",
+    "scientific_name": "Cygnus olor",
+    "found_in": "Europe, Asia, North America, and Australia, near lakes and rivers",
+    "fun_fact": "Swans mate for life, and if one partner dies, the other may die of a broken heart — a condition called 'stress cardiomyopathy'."
+  },
+  {
+    "common_name": "tiger",
+    "scientific_name": "Panthera tigris",
+    "found_in": "South and Southeast Asia, in forests, grasslands, and mangroves",
+    "fun_fact": "Tiger stripes are like human fingerprints — no two tigers have the same stripe pattern, and the pattern also appears on their skin."
+  },
+  {
+    "common_name": "turkey",
+    "scientific_name": "Meleagris gallopavo",
+    "found_in": "North America, in forests and grasslands; domesticated worldwide",
+    "fun_fact": "Wild turkeys can fly at speeds of up to 89 km/h for short distances — domesticated turkeys have lost this ability."
+  },
+  {
+    "common_name": "turtle",
+    "scientific_name": "Testudines (order)",
+    "found_in": "Found worldwide on every continent except Antarctica, in oceans, lakes, and rivers",
+    "fun_fact": "Sea turtles use Earth's magnetic field as a GPS system to navigate thousands of kilometres back to the exact beach where they were born."
+  },
+  {
+    "common_name": "whale",
+    "scientific_name": "Cetacea (order)",
+    "found_in": "Found in all oceans worldwide, from polar seas to tropical waters",
+    "fun_fact": "Blue whales are the largest animals ever known to have existed — their hearts alone are the size of a small car!"
+  },
+  {
+    "common_name": "wolf",
+    "scientific_name": "Canis lupus",
+    "found_in": "North America, Europe, and Asia, in forests, tundra, and grasslands",
+    "fun_fact": "Wolves can howl at frequencies that travel over 10 km, and each wolf has a unique howl like a fingerprint."
+  },
+  {
+    "common_name": "wombat",
+    "scientific_name": "Vombatidae (family)",
+    "found_in": "Australia and Tasmania, in forests, grasslands, and scrublands",
+    "fun_fact": "Wombats are the only animals in the world that produce cube-shaped droppings — they use them to mark territory."
+  },
+  {
+    "common_name": "woodpecker",
+    "scientific_name": "Picidae (family)",
+    "found_in": "Found worldwide except Australia, New Zealand, and polar regions, in forests",
+    "fun_fact": "Woodpeckers peck up to 20 times per second — their skull is specially reinforced with thick bone and a unique beak structure to absorb the shock."
+  },
+  {
+    "common_name": "zebra",
+    "scientific_name": "Equus quagga",
+    "found_in": "Africa, primarily in savannas, grasslands, and open woodlands",
+    "fun_fact": "Every zebra's stripe pattern is unique like a fingerprint, and the stripes may help confuse biting flies who struggle to land on the moving patterns."
+  }
+]
