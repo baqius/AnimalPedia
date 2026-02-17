@@ -14,11 +14,11 @@ def load_model():
     num_classes = 90
     model.classifier[1] = torch.nn.Linear(model.classifier[1].in_features, num_classes)
     
-   state_dict = torch.load(
+    state_dict = torch.load(
     "efficient_best_mine.pth",
     map_location='cpu',
     weights_only=True
-    )
+      )
     model.load_state_dict(state_dict, strict=False)
     model.eval()
     return model
