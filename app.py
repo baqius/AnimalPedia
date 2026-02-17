@@ -12,16 +12,19 @@ def load_model():
 
     model_path = "efficient_best_mine.pth"
 
-    if not os.path.exists(model_path):
-        with st.spinner("Downloading model... please wait"):
-            url = "https://media.githubusercontent.com/media/baqius/AnimalPedia/main/efficient_best_mine.pth"
-            response = requests.get(url, stream=True)
-            st.write(response.status_code)
-            st.write(dict(response.headers))
-            response.raise_for_status()
-            with open(model_path, "wb") as f:
-                for chunk in response.iter_content(chunk_size=8192):
-                    f.write(chunk)
+    # Force re-download by removing the existing file
+    if os.path.exists(model_path):
+        os.remove(model_path)
+
+    with st.spinner("Downloading model... please wait"):
+        url = "https://media.githubusercontent.com/media/baqius/AnimalPedia/main/efficient_best_mine.pth"
+        response = requests.get(url, stream=True)
+        st.write(response.status_code)
+        st.write(dict(response.headers))
+        response.raise_for_status()
+        with open(model_path, "wb") as f:
+            for chunk in response.iter_content(chunk_size=8192):
+                f.write(chunk)
 
     model = models.efficientnet_b0(weights=None)
     num_classes = 90
