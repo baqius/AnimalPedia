@@ -7,14 +7,22 @@ from torchvision import transforms, models
 
 @st.cache_resource
 def load_model():
+    import urllib.request
+    import os
+
+    model_path = "efficient_best_mine.pth"
+
+    if not os.path.exists(model_path):
+        with st.spinner("Downloading model..."):
+            urllib.request.urlretrieve(
+                "https://media.githubusercontent.com/media/baqius/AnimalPedia/main/efficient_best_mine.pth",
+                model_path
+            )
+
     model = models.efficientnet_b0(weights=None)
     num_classes = 90
     model.classifier[1] = torch.nn.Linear(model.classifier[1].in_features, num_classes)
-    state_dict = torch.load(
-        "efficient_best_mine.pth",
-        map_location='cpu',
-        weights_only=False
-    )
+    state_dict = torch.load(model_path, map_location='cpu', weights_only=False)
     model.load_state_dict(state_dict, strict=False)
     model.eval()
     return model
