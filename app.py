@@ -219,6 +219,8 @@ def main():
             <p>🌿 Built with Streamlit | Data contains information about 90 animals</p>
         </div>
     """, unsafe_allow_html=True)
+st.write(response.status_code)
+st.write(response.headers)
 
 
 main()
