@@ -19,8 +19,7 @@ def load_model():
     with st.spinner("Downloading model... please wait"):
         url = "https://media.githubusercontent.com/media/baqius/AnimalPedia/main/efficient_best_mine.pth"
         response = requests.get(url, stream=True)
-        st.write(response.status_code)
-        st.write(dict(response.headers))
+        
         response.raise_for_status()
         with open(model_path, "wb") as f:
             for chunk in response.iter_content(chunk_size=8192):
