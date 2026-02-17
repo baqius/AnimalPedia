@@ -17,7 +17,7 @@ def load_model():
     state_dict = torch.load(
     "efficient_best_mine.pth",
     map_location='cpu',
-    weights_only=True
+    weights_only=False
       )
     model.load_state_dict(state_dict, strict=False)
     model.eval()
