@@ -62,7 +62,7 @@ def predict_animal(image, model):
 @st.cache_data
 def load_animal_data():
     """Load animal information from JSON file"""
-    with open("Fundamental deep learning/Chapter 6 PreTrained ResNet CNN/animals_info.json", 'r') as f:
+    with open("animals_info.json", 'r') as f:
         data = json.load(f)
     return data
 
@@ -220,7 +220,5 @@ def main():
         </div>
     """, unsafe_allow_html=True)
 
-import os
-st.write(os.getcwd())
-st.write(os.listdir("."))
+
 main()
