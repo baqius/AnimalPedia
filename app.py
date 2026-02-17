@@ -7,17 +7,19 @@ from torchvision import transforms, models
 
 @st.cache_resource
 def load_model():
-    import urllib.request
+    import requests
     import os
 
     model_path = "efficient_best_mine.pth"
 
     if not os.path.exists(model_path):
-        with st.spinner("Downloading model..."):
-            urllib.request.urlretrieve(
-                "https://media.githubusercontent.com/media/baqius/AnimalPedia/main/efficient_best_mine.pth",
-                model_path
-            )
+        with st.spinner("Downloading model... please wait"):
+            url = "https://media.githubusercontent.com/media/baqius/AnimalPedia/main/efficient_best_mine.pth"
+            response = requests.get(url, stream=True)
+            response.raise_for_status()
+            with open(model_path, "wb") as f:
+                for chunk in response.iter_content(chunk_size=8192):
+                    f.write(chunk)
 
     model = models.efficientnet_b0(weights=None)
     num_classes = 90
