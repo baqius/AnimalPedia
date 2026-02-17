@@ -221,5 +221,7 @@ def main():
         </div>
     """, unsafe_allow_html=True)
 
-
+import os
+st.write(os.getcwd())
+st.write(os.listdir("."))
 main()
