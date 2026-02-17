@@ -188,8 +188,7 @@ def main():
                         if i == 1:
                             st.markdown("---")
 
-    st.markdown("---")
-    st.caption("🌿 Built with Streamlit | Data contains information about 90 animals")
+    
 
 
 main()
