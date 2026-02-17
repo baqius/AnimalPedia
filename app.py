@@ -14,12 +14,11 @@ def load_model():
     num_classes = 90
     model.classifier[1] = torch.nn.Linear(model.classifier[1].in_features, num_classes)
     
-    state_dict = torch.load(
-        "Fundamental deep learning/Chapter 6 PreTrained ResNet CNN/efficient_best_mine.pth", 
-        map_location='cpu',
-        weights_only=True
+   state_dict = torch.load(
+    "efficient_best_mine.pth",
+    map_location='cpu',
+    weights_only=True
     )
-    
     model.load_state_dict(state_dict, strict=False)
     model.eval()
     return model
@@ -27,7 +26,7 @@ def load_model():
 
 def load_class_names_from_json():
     """Extract class names from animals_info.json"""
-    with open("Fundamental deep learning/Chapter 6 PreTrained ResNet CNN/animals_info.json", 'r') as f:
+    with open("animals_info.json", 'r') as f:
         data = json.load(f)
     class_names = sorted([animal['common_name'] for animal in data])
     return class_names
@@ -83,7 +82,7 @@ def display_animal_info(animal_data, show_image=True):
         try:
             import os
             import glob
-            image_folder = "Fundamental deep learning/Chapter 6 PreTrained ResNet CNN/animal_images/"
+            image_folder = "animal_images/"
             animal_name = animal_data['common_name'].lower()
             
             pattern = os.path.join(image_folder, f"{animal_name}*")
