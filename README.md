@@ -1,6 +1,6 @@
 # 🦁 AnimalPedia: AI-Powered Animal Recognition & Information System
 
-
+**Live Demo:** [https://animalpedia.streamlit.app/](https://animalpedia.streamlit.app/)
 ## 🎯 Overview
 
 **AnimalPedia** is an intelligent web application that combines computer vision and information retrieval to identify animal species from images and provide comprehensive educational information. Built with state-of-the-art deep learning techniques, this project demonstrates the practical application of transfer learning using EfficientNet-B0 architecture for multi-class image classification across 90 distinct animal species.
@@ -114,41 +114,6 @@ Each animal profile includes:
 - **Adam Optimizer**: Adaptive learning rate optimization
 - **Cross-Entropy Loss**: Multi-class classification objective
 
----
-
-## 🏗️ System Architecture
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│                     User Interface Layer                     │
-│                      (Streamlit App)                         │
-├──────────────────────┬──────────────────────────────────────┤
-│   Image Upload       │        Text Search                    │
-│   Component          │        Component                      │
-└──────────┬───────────┴────────────┬─────────────────────────┘
-           │                        │
-           ▼                        ▼
-┌──────────────────────┐  ┌─────────────────────────┐
-│  Image Processing    │  │   Database Query        │
-│  & Preprocessing     │  │   (JSON Lookup)         │
-└──────────┬───────────┘  └────────┬────────────────┘
-           │                       │
-           ▼                       │
-┌──────────────────────┐          │
-│  EfficientNet-B1     │          │
-│  Model Inference     │          │
-│  (90 Classes)        │          │
-└──────────┬───────────┘          │
-           │                       │
-           └───────────┬───────────┘
-                       ▼
-           ┌───────────────────────┐
-           │  Information Display   │
-           │  - Predictions         │
-           │  - Details             │
-           │  - Images              │
-           └───────────────────────┘
-```
 
 ### Data Flow
 
@@ -326,13 +291,7 @@ for i, pred in enumerate(predictions, 1):
    - **No Subspecies Recognition**: Cannot distinguish between subspecies or breeds
    - **Single Animal Detection**: Works best with images containing one primary animal
 
-2. **Performance Considerations**
-   - **CPU Inference**: Currently optimized for CPU; GPU acceleration not implemented
-   - **Processing Time**: 1-3 seconds per image on standard hardware
-   - **Memory Usage**: ~500MB for model loading
-   - **Concurrent Users**: Not optimized for high-traffic production deployment
-
-3. **Data Limitations**
+2. **Data Limitations**
    - **Training Data Bias**: Performance reflects the diversity of training images
    - **Image Quality Dependency**: Best results with clear, well-lit, centered subjects
    - **Background Complexity**: Cluttered backgrounds may reduce accuracy
